@@ -5,4 +5,3 @@ scikit-learn
 gunicorn
 matplotlib
 joblib
-pickle
