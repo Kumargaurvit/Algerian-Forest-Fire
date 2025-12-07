@@ -5,7 +5,6 @@ from sklearn.preprocessing import StandardScaler
 from flask import Flask, request, jsonify, render_template
 
 application = Flask(__name__)
-app = application
 
 # Importing Ridge Regression model and Standard Scaler model
 model = pickle.load(open('Models/ridge.pkl','rb'))
@@ -36,4 +35,4 @@ def predict():
         return render_template('home.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    application.run(debug=True)
