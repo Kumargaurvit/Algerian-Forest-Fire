@@ -1,9 +1,8 @@
 flask
 pandas
 numpy
-gunicorn
 scikit-learn
-matplotlib.pyplot
-seaborn
 gunicorn
+matplotlib
 joblib
+pickle
