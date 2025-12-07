@@ -5,3 +5,5 @@ gunicorn
 scikit-learn
 matplotlib.pyplot
 seaborn
+gunicorn
+joblib
